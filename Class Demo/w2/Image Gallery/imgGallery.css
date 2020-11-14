@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body {
+  margin-top: 100px;
+}
+
 #line3,
 #line4 {
   display: flex;

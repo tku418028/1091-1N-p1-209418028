@@ -1,0 +1,61 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.CS {
+    letter-spacing: 0.5px;
+    border: 3px  solid;
+    font-family: "Raleway", sans-serif, 微軟正黑體;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.CS th {
+    border: 2px black solid;
+    padding: 10px;
+}
+
+.CS td {
+    border: 2px black solid;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.CS .name {
+    font-size: 30px;
+    background-color: turquoise;
+}
+
+.CS .first {
+    font-size: 25px;
+    background-color: cornflowerblue;
+}
+
+.CS .week {
+    font-size: 20px;
+    background-color: hotpink;
+}
+
+.CS .number {
+    background-color: mediumpurple;
+}
+
+.CS .time {
+    background-color: tomato;
+}
+
+.CS .course {
+    background-color: gold;
+    table-layout: fixed;
+    width: 150px;
+}
